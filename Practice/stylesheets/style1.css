@@ -1,0 +1,21 @@
+ol
+{
+    background-color: aquamarine;
+}
+
+ol li
+{
+    background-color: rgb(173, 122, 221);
+    margin: 10px;
+    text-decoration: underline;
+}
+
+h1
+{
+    background-color: darksalmon;
+    margin: 25px;
+    padding: 60px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
