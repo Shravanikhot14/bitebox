@@ -19,3 +19,43 @@ h1
     box-sizing: border-box;
 }
 
+.box
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    /* position: relative;  */
+    
+    position: absolute;
+}
+
+#box1
+{
+    background-color: red;
+    /* left: 20px;  
+                     positions will work with position:relative */
+    left: 80px;
+    z-index: 3;
+}
+
+#box2
+{
+    background-color: blue;
+    /* left: 40px;
+    bottom: 60px; */
+
+    left: 40px;
+    top: 40px;
+    z-index: 2;
+}
+
+#box3
+{
+    background-color: yellow;
+    /* left: 60px;
+    bottom: 100px; */
+
+    top: 80px;
+    z-index: 1;
+}
+

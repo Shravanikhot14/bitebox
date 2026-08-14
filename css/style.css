@@ -150,3 +150,94 @@ nav div h2
     color: rgb(52, 51, 51);
 }
 
+.card
+{
+    /* background-color: aquamarine; */
+    /* border: 2px solid black; */
+    padding: 15px;
+    text-align: center;
+    /* horizontal vertical blur spread shadow-color*/
+    box-shadow: 0px 4px 10px 0px gray;
+    border-radius: 10px;
+}
+
+.card img
+{
+    width: 100%;
+}
+
+.card button
+{
+    background: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+} 
+
+.card button:hover
+{
+    background: darkred;
+}
+
+.menu-container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    /* border: 2px solid black; */
+    padding: 20px;
+}
+
+.icon-box
+{
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon-box img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid rgb(224, 159, 38);
+    padding: 5px;
+}
+
+.category-icons
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.icon-box p
+{
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.icon-box img:hover
+{
+    transform: scale(1.1);
+    border-color: black;
+    /* transform: skew(30deg); */
+    /* transform: rotate(30deg); */
+    /* transform: translate(12px); */
+    transition: 0.5s;       /* in lab its given in icon box it should be here */
+}
+
+header
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+
